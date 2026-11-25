@@ -1,6 +1,6 @@
 """AgentQuest Moment of the Day: emit today's smallest proud quest as one line.
 
-The program writes a single 152-character line to entry.txt in the
+The program writes a single 147-character line to entry.txt in the
 grader-provided output directory. Nothing is read from the network,
 from git history, or from any file outside this repository.
 """
@@ -18,9 +18,9 @@ def pick_outdir() -> Path:
 def moment_text() -> str:
     """The one line: the smallest quest finished today, with its snag."""
     return (
-        "Today my agent turned the Golden Ladle from unranked in a field "
-        "of 648 into a second version with ten dishes and double tips in "
-        "the last thirty seconds."
+        "Today my agent caught our kit sitting at level 45 while the site "
+        "had moved to 46, re-downloaded it, and the next bundle stopped "
+        "failing on version."
     )
 
 
